@@ -12,3 +12,4 @@ def selection_sort(arr):
                 min_index = j
         if i != min_index:
             arr[i], arr[min_index] = arr[min_index], arr[i]
+            print(arr)
