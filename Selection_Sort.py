@@ -5,3 +5,5 @@
 
 def selection_sort(arr):
     size = len(arr)
+    for i in range(size - 1):
+        min_index = i
