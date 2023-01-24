@@ -18,4 +18,8 @@ def partition(arrays, left, right):
             i += 1
         while j > left and arrays[j] >= the_pivot:
             j -= 1
+        if i < j:
+            arrays[i], arrays[j] = arrays[j], arrays[i]
+            print("\t\t\t ", arrays)
+
 
