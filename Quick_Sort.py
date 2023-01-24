@@ -13,3 +13,6 @@ def partition(arrays, left, right):
     i = left
     j = right - 1
     the_pivot = arrays[right]
+    while i < j:
+        while i < right and arrays[i] < the_pivot:
+            i += 1
