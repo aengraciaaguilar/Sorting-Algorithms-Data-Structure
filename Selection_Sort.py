@@ -13,3 +13,14 @@ def selection_sort(arr):
         if i != min_index:
             arr[i], arr[min_index] = arr[min_index], arr[i]
             print(arr)
+
+
+arr = [78, 62, 56, 27, 90, 65, 71, 87, 33, 86]
+print("My array:", arr)
+print("The output of the sorted array using selection sort algorithm:", arr)
+print("\n")
+print("The process of selection sort:")
+selection_sort(arr)
+print("\n")
+
+
