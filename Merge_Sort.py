@@ -31,3 +31,13 @@ def merge_sort(arr):
             arr[k] = right[j]
             j += 1
             k += 1
+            print(arr)
+
+arr = [78, 62, 56, 27, 90, 65, 71, 87, 33, 86]
+print("My array:", arr)
+print("The output of the sorted array using merge sort algorithm:", arr)
+print("\n")
+print("The process of merge sort:")
+merge_sort(arr)
+print("\n")
+
