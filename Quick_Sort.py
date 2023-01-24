@@ -21,5 +21,7 @@ def partition(arrays, left, right):
         if i < j:
             arrays[i], arrays[j] = arrays[j], arrays[i]
             print("\t\t\t ", arrays)
-
-
+        if arrays[i] > the_pivot:
+            arrays[i], arrays[right] = arrays[right], arrays[i]
+            print("\t\t\t ", arrays)
+        return i
